@@ -12,3 +12,4 @@ Usage :
 ===========
 Install the plugin and you can use fixed values for viewport tag in your aplication 
 exapmle:  <meta name="viewport" content="width=500">
+    <meta name="viewport" content="width=500" >
