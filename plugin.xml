@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.fridaydesigm.plugins.viewport_scale" version="0.9.5" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="com.fridaydesigm.plugins.viewport_scale" version="0.9.51" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>Viewport Scale</name>
 	<description>Viewport Scale</description>
 	<license>Apache 2.0</license>
