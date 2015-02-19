@@ -29,16 +29,17 @@ public class CDVViewportScale extends CordovaPlugin {
             callbackContext.error("Expected one non-empty string argument.");
         }
     }
+    public class ViewportScale extends DroidGap
+    {       
+        super.onCreate(savedInstanceState);
+        super.init(); // Don't forget this, you'll get runtime error otherwise!
+    
+        // The following does the trick:
+        super.appView.getSettings().setUseWideViewPort(true);
+        super.appView.getSettings().setLoadWithOverviewMode(true);
+    
+        super.loadUrl("file:///android_asset/www/index.htm");
+    }
 }
 
-public class ViewportScale extends DroidGap
-{       
-    super.onCreate(savedInstanceState);
-    super.init(); // Don't forget this, you'll get runtime error otherwise!
 
-    // The following does the trick:
-    super.appView.getSettings().setUseWideViewPort(true);
-    super.appView.getSettings().setLoadWithOverviewMode(true);
-
-    super.loadUrl("file:///android_asset/www/index.htm");
-}
