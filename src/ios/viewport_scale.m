@@ -2,14 +2,14 @@
 
 #import <Cordova/CDV.h>
 
-@interface CDVViewport Scale : CDVPlugin {
+@interface CDVViewportScale : CDVPlugin {
   // Member variables go here.
 }
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command;
 @end
 
-@implementation CDVViewport Scale
+@implementation CDVViewportScale
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command
 {
