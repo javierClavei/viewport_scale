@@ -9,6 +9,7 @@
 			<config-file parent="/*" target="config.xml">
 				<feature name="ViewportScale">
 					<param name="ios-package" value="CDVViewportScale" />
+					<param name="onload" value="true" />
 				</feature>
 			</config-file><source-file src="src/ios/viewport_scale.m" />
 		</platform>
