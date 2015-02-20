@@ -7,7 +7,9 @@
 	</js-module>
 		<platform name="ios">
 			<config-file parent="/*" target="config.xml">
-				<feature name="Viewport Scale"><param name="ios-package" value="Viewport Scale" /></feature>
+				<feature name="ViewportScale">
+					<param name="ios-package" value="CDVViewportScale" />
+				</feature>
 			</config-file><source-file src="src/ios/viewport_scale.m" />
 		</platform>
 		<platform name="android">
