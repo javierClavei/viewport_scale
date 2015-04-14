@@ -23,4 +23,5 @@
 				</config-file><source-file src="src/android/viewport_scale.java" target-dir="src/viewport_scale/ViewportScale" />
 		</platform>
 		<!-- remote coment -->
+		<!-- new branch comment -->
 </plugin>
